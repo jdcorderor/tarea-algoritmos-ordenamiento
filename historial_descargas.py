@@ -16,6 +16,9 @@ class HistorialDescargas:
 
     # Método para cargar las descargas desde un archivo JSON.
     def cargar_descargas_desde_json(self, archivo_json):
+        self.cola_descargas = []
+        self.historial_completadas = []
+        self.historial_canceladas = []
         with open(archivo_json, 'r') as file:
             datos = json.load(file)
             for descarga_data in datos:
