@@ -1,0 +1,56 @@
+[
+    {
+        "url": "http://example.com/file1-extended.zip",
+        "tamano": 100,
+        "fecha_inicio": "2024-10-12 14:30:00",
+        "estado": "completada"
+    },
+    {
+        "url": "http://example.com/file2.zip",
+        "tamano": 250,
+        "fecha_inicio": "2024-10-13 10:00:00",
+        "estado": "pendiente"
+    },
+    {
+        "url": "http://example.com/file3.zip",
+        "tamano": 50,
+        "fecha_inicio": "2024-10-14 09:15:00",
+        "estado": "en_progreso"
+    },
+    {
+        "url": "http://example.com/file4.zip",
+        "tamano": 300,
+        "fecha_inicio": "2024-10-10 08:00:00",
+        "estado": "cancelada"
+    },
+    {
+        "url": "http://example.com/file5.zip",
+        "tamano": 20,
+        "fecha_inicio": "2024-10-14 11:00:00",
+        "estado": "completada"
+    },
+    {
+        "url": "http://example.com/file6.zip",
+        "tamano": 500,
+        "fecha_inicio": "2024-10-15 07:30:00",
+        "estado": "pendiente"
+    },
+    {
+        "url": "http://test.com/file7.zip",
+        "tamano": 40,
+        "fecha_inicio": "2024-10-12 09:10:00",
+        "estado": "completada"
+    },
+    {
+        "url": "http://example.com/file8.zip",
+        "tamano": 60,
+        "fecha_inicio": "2023-09-07 12:00:00",
+        "estado": "pendiente"
+    },
+    {
+        "url": "hola.com",
+        "tamano": 43.0,
+        "fecha_inicio": "2025-03-06 15:14:14",
+        "estado": "completada"
+    }
+]
