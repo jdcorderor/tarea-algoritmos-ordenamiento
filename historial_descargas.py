@@ -24,7 +24,7 @@ class HistorialDescargas:
             for descarga_data in datos:
                 descarga = Descarga(
                     url=descarga_data['url'],
-                    tamano=descarga_data['tamano'],
+                    tamano=float(descarga_data['tamano']),
                     fecha_inicio=descarga_data['fecha_inicio'],
                     estado=descarga_data['estado']
                 )
