@@ -77,7 +77,7 @@ class Reporte:
                 arr[k], arr[i] = arr[i], arr[k]
                 i += 1
         arr[ip], arr[i] = arr[i], arr[ip]
-        return ip
+        return i
     
     # Método de ordenamiento MergeSort.
     def mergesort(self, arreglo):
