@@ -129,7 +129,7 @@ class Reporte:
             arr[i], arr[mayor] = arr[mayor], arr[i]
             self.heapify(arr, n, mayor)
 
-    # Método para convertir una fecha en formato string a datetime.
+    # Método para convertir una fecha en formato string a datetime, usando strptime.
     def convertir_datetime(self, fecha):
         return datetime.strptime(fecha, "%Y-%m-%d %H:%M:%S")
 
